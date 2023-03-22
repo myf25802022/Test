@@ -1,0 +1,54 @@
+.sk{
+    position: absolute;
+    left: 190px;
+    top: 40px;
+    border-left: 1px solid #c81523;
+    padding: 0 0 0 15px;
+}
+.sk_list{
+    float: left;
+}
+.sk_list ul li{
+    float: left;
+}
+.sk_list ul li a{
+    display: block;
+    line-height: 47px;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+.sk_con{
+    margin-left: 30px;
+    float: left;
+}
+.sk_con ul li{
+    float: left;
+}
+.sk_con ul li a{
+    display: block;
+    line-height: 47px;
+    padding: 0 20px;
+    font-size: 12px;
+}
+.last::after{
+    content: '\e91e';
+    font-family: 'icomoon';
+}
+.sk_bd ul{
+    margin-top: 10px;
+}
+.sk_bd ul li{
+    overflow: hidden;
+    margin-right: 13px;
+    float: left;
+    width: 290px;
+    height: 460px;
+}
+.sk_bd ul li:nth-child(4n){
+    margin: 0;
+}
+.sk_bd ul li:hover{
+    border: 1px solid red;
+}

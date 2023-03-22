@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        img{
+            width: 180px;
+            height: auto;
+            border: 1px solid #ccc;
+            border-radius:50%;
+            margin-top: 10px;
+            transition: all .3s;
+        }
+        img:hover{
+            transform: rotate(360deg);
+        }
+        .left{
+            float: left;
+            display: flex;
+            flex-direction: column;
+        }
+        .right{
+            float: right;
+            display: flex;
+            flex-direction: column;
+        }
+        .text h2,
+        h3{
+           text-align: center;
+           line-height: 100%;
+           padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="text">
+        <h2 style="color: pink;">我是小小欢乐魔法师</h2>
+        <h3>点击照片激活三贱&nbsp;让贱总转起来</h3>
+    </div>
+    
+    <div class="left">
+        <img src="./images/sj.png" alt="">
+        <img src="./images/sj.png" alt="">
+    </div>
+    <div class="right">
+        <img src="./images/sj.png" alt="">
+        <img src="./images/sj.png" alt="">
+    </div>
+</body>
+</html>
